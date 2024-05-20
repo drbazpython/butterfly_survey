@@ -69,8 +69,8 @@ layout = html.Div([
         html.Div(className="row", children=[
             html.Img(id="butterfly_image",src="/static/no_image.jpg",
                      style={'display': 'inline-block',"width":"25%"}),
-            html.Img(id="butterfly_image",src="/assets/no_image.jpg",
-                     style={'display': 'inline-block',"width":"25%"}),
+            #html.Img(id="butterfly_image",src="/assets/no_image.jpg",
+                     #style={'display': 'inline-block',"width":"25%"}),
             html.Br(),
             html.A(id="butterfly_url",children=["More Info"],style={"marginLeft":50}, href="https://butterfly-conservation.org/butterflies/identify-a-butterfly")
         ],style={'marginLeft':50}),
